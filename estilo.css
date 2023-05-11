@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:white 100%,
+
+}
+/*-header-*/
+
+header{
+    height: 9vh;
+    justify-content: top;
+}
+a{
+    color: rgba(88, 86, 86);
+    padding-left: 5vh;
+}
+
+h1{
+    position: relative;
+    margin-top: 11vh;
+    padding-left: 12vh;
+    font-size: 8vh;
+}
+
+h2{
+    position: relative;
+    margin-top: 0.5vh;
+    padding-left: 12vh;
+    font-size: 2.5vh;
+    color: rgba(88, 86, 86);
+}
+h3{
+    position: relative;
+    margin-top: 0.5vh;
+    padding-left: 12vh;
+    font-size: 5vh;
+    color: black;
+    letter-spacing: -0.6vh;
+}
+    
+img{
+    width: 60vh;
+    height: 70vh;
+    margin-top: -29vh;
+    padding-left: 130vh;
+    
+}
+
+
+.logomarca{
+    position: absolute;
+    padding-top: 3.3vh;
+}
+
+.headeruno{
+    position: relative;
+    padding-top: 4.8vh;
+    justify-content: center;
+    padding-left: 60vh;
+    margin-top: -4vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    
+}
+
+.flechauno{
+    position: absolute;
+    padding-top: 0.8vh;
+    padding-left: 24vh;
+    
+}
+.flechados{
+    position: absolute;
+    padding-top: 0.8vh;
+    padding-left: 45vh;
+}
+
+.flechados{
+    position: absolute;
+    padding-top: 0.8vh;
+    padding-left: 45vh;
+}
+.flechatres{
+    position: absolute;
+    padding-top: 1.5vh;
+    padding-left: 142vh;
+    font-size: 2vh;
+}
+.divdeboton{
+    
+    display: flex;
+    justify-content: right;
+    padding-right: 16vh;
+    padding-top: 5vh;
+    
+
+}
+
+.boton{
+    position: absolute;
+    padding-top: 4.5vh;
+    padding-left: 164vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    transform: scale(1);
+    background-color: rgb(20, 20, 199);
+    border: 0.1vh solid rgb(20, 20, 199);
+    border-radius: 60vh;
+    height: 30px;
+    padding: 2px 30px 2px 30px;
+    color: white;
+
+}
+.boton:hover{
+    transform: scale(1);
+    background-color: white ;
+    border: 0.3vh solid rgb(20, 20, 199);
+    height: 30px;
+    padding: 2px 30px 2px 30px;
+    color:rgb(20, 20, 199) ;
+    
+}
+.boton{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+
+.menu a.activo{
+    font-weight: bolder;
+    font-size: 2.5vh;
+    color: black;
+}
+.titulo{
+    position: absolute;
+}
+.titulodos{
+    margin-top: 1vh;
+}
+.titulotres{
+    margin-top: 1vh;
+}
+.texto{
+    position: absolute;
+    padding-top: 4vh;
+}
+
+.divbotondos{
+    position: relative;
+    
+    padding-right: 16vh;
+    
+}
+.botondos{
+    margin: 0;
+    position: absolute;
+    top: -23vh;
+    left: 85vh;
+    transform: translate(-50%, -50%);
+    justify-content: left;
+    padding-top: 5vh;
+    padding-left: 588vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    transform: scale(1);
+    background-color: rgb(20, 20, 199);
+    border: 0.1vh solid rgb(20, 20, 199);
+    border-radius: 60vh;
+    height: 46px;
+    padding: 2px 30px 2px 30px;
+    color: white;
+}
+.botondos:hover{
+    transform: scale(1);
+    background-color: white ;
+    border: 0.5vh solid rgb(20, 20, 199);
+    height: 46px;
+    padding: 2px 30px 2px 30px;
+    color:rgb(20, 20, 199) ;
+    font-size: 14px;
+    
+}
+.botondos{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+.divinput{
+    
+    width:max-content;
+    padding: 0 8vh 0 19vh;
+
+}
+.input{
+    position: absolute;
+    justify-content: left;
+    font-size: 14px;
+    background-color: rgb(247, 241, 241)  ;
+    left: 11.5vh;
+    padding-top: 4.9vh;
+    padding-left: 63vh;
+    bottom: 24vh;
+    border: 0.1vh solid  rgb(214, 211, 211) ;
+    border-radius: 60vh;
+    
+    
+    
+}
+
+
+.bi-search{
+    position:absolute;
+    top:71vh;
+    left: 13vh;
+}
+.divcontenedordos{
+    position: relative;
+    padding-right: 16vh;
+}
+.carteluno{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 12vh;
+    bottom: 7.3vh;
+}
+.carteldos{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 42vh;
+    bottom: 15.5vh;
+}
+.carteltres{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 70vh;
+    bottom: 15.5vh;
+
+}
+.pcarteluno{
+    position: absolute;
+    justify-content: left;
+    font-size: 15px;
+    color: rgba(88, 86, 86);
+    padding-left: 12vh;
+    bottom: 3.5vh;
+
+}
+.pcarteldos{
+    position: absolute;
+    justify-content: left;
+    font-size: 15px;
+    color: rgba(88, 86, 86);
+    padding-left: 42vh;
+    bottom: 12vh;
+}
+.pcarteltres{
+    position: absolute;
+    justify-content: left;
+    font-size: 15px;
+    color:rgba(88, 86, 86);
+    padding-left: 70vh;
+    bottom: 12vh;
+}
+a:hover{
+    animation: backwards;
+}
+
+a:link{text-decoration: none;
+        }
+
+::placeholder{
+    color: rgb(219, 214, 214);
+    position: absolute;
+    left: 5vh;
+    top:2.5vh
+}
