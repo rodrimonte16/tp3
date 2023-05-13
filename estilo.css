@@ -529,6 +529,99 @@ img{
     transition: background 0.3s;
                  transform: 0.2s;
 }
+.divimgtres{
+    position: absolute;
+    padding-top: 10vh;
+    top:190vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.paginatresimguno{
+    margin: 0;
+    position: relative;
+    top: -10vh;
+    left: 60vh;
+    transform: translate(-50%, -50%);
+    justify-content: left;
+    width: 80vh;
+    height: 58vh;
+    border-radius: 10%;
+    margin-top: 90vh;
+    padding-left: 2vh;
+    
+}
+.paginatresimgdos{
+    margin: 0;
+    position: absolute;
+    top: 12vh;
+    left: 155.5vh;
+    transform: translate(-50%, -50%);
+    justify-content: left;
+    width: 80vh;
+    height: 58vh;
+    border-radius: 10%;
+    margin-top: 40vh;
+    padding-left: 2vh;
+    
+}
+.titulopagtres{
+    position: absolute;
+}
+.textounopagtres{
+    margin: 0;
+    position: absolute;
+    font-size: 7vh;
+    top: 172vh;
+    left: 36vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 2vh;
+    
+}
+.punopagtres{
+    margin: 0;
+    position: absolute;
+    top: 190vh;
+    left: 56vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 2vh;
+}
+.titulodospagtres{
+    position: absolute;
+}
+.textodospagtres{
+    margin: 0;
+    position: absolute;
+    font-size: 7vh;
+    top: 232vh;
+    left: 131.5vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 2vh;
+    
+}
+.pdospagtres{
+    margin: 0;
+    position: absolute;
+    width: 500px;
+    top: 250vh;
+    left: 156vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 2vh;
+}
+
 a:hover{
     animation: backwards;
 }
