@@ -156,7 +156,7 @@ img{
 .botondos{
     margin: 0;
     position: absolute;
-    top: -23vh;
+    top: -25.7vh;
     left: 85vh;
     transform: translate(-50%, -50%);
     justify-content: left;
@@ -202,16 +202,13 @@ img{
     padding-left: 63vh;
     bottom: 24vh;
     border: 0.1vh solid  rgb(214, 211, 211) ;
-    border-radius: 60vh;
-    
-    
-    
+    border-radius: 60vh;   
 }
 
 
 .bi-search{
     position:absolute;
-    top:71vh;
+    top:68vh;
     left: 13vh;
 }
 .divcontenedordos{
@@ -264,6 +261,273 @@ img{
     color:rgba(88, 86, 86);
     padding-left: 70vh;
     bottom: 12vh;
+}
+.textopaginados{
+    position: absolute;
+    padding-top: 10vh;
+    font-size: 7vh;
+}
+
+.textodos{
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.divpdos{
+    height: 200px;
+    top: 103vh;
+    left: 35vh;
+    position: relative;
+}
+.divpdosdos{
+    padding-top: 1vh;
+    left: 35vh;
+    top: 74vh;
+}
+.divimgdos{
+    display: flex;
+    justify-content: center;
+    
+}
+.paginadosimg{
+    width: 38vh;
+    height: 38vh;
+    border-radius: 10%;
+    margin-top: 40vh;
+    padding-left: 2vh;
+    
+}
+.divcontenedortres{
+    position: relative;
+    padding-right: 16vh;
+}
+.cartelunopdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 32vh;
+    bottom: -8vh;
+}
+.cartelunopdosdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 32vh;
+    bottom: -14vh;
+}
+.carteldospdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 71.8vh;
+    bottom: -77.3vh;
+}
+.carteldospdosdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 71.8vh;
+    bottom: -83.3vh;
+}
+.carteltrespdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 111.5vh;
+    bottom: -77.3vh;
+
+}
+.carteltrespdosdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 111.5vh;
+    bottom: -83.3vh;
+
+}
+.cartelcuatropdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 151.4vh;
+    bottom: -77.3vh;
+
+}
+.cartelcuatropdosdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 151.5vh;
+    bottom: -83.3vh;
+
+}
+.pcartelunopdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 15px;
+    color: rgba(88, 86, 86);
+    padding-left: 34vh;
+    bottom: -18vh;
+
+}
+.pcarteldospdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 15px;
+    color: rgba(88, 86, 86);
+    padding-left: 74vh;
+    bottom: -87.5vh;
+}
+.pcarteltrespdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 15px;
+    color:rgba(88, 86, 86);
+    padding-left: 114vh;
+    bottom: -87.5vh;
+}
+.pcartelcuatropdos{
+    position: absolute;
+    justify-content: left;
+    font-size: 15px;
+    color:rgba(88, 86, 86);
+    padding-left: 154.5vh;
+    bottom: -87.55vh;
+}
+
+.ubiuno{
+    position: absolute;
+    padding-left: 31.2vh;
+    bottom: -87.55vh;
+}
+.ubidos{
+    position: absolute;
+    padding-left: 71.5vh;
+    bottom: -87.55vh;
+}
+
+.ubitres{
+    position: absolute;
+    padding-left: 111.5vh;
+    bottom: -87.55vh;
+}
+.ubicuatro{
+    position: absolute;
+    padding-left: 152vh;
+    bottom: -87.55vh;
+}
+.divprecios{
+    position: relative;
+   
+}
+.preciouno{
+    margin: 0;
+    position: absolute;
+    margin-top: -33vh;
+    top: 20%;
+    left: 40vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: rgb(41, 36, 36);
+    border: 0.1vh solid rgb(41, 36, 36);
+    border-radius: 60vh;
+    height: 32px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+    
+
+}
+.preciodos{
+    margin: 0;
+    position: absolute;
+    margin-top: -33vh;
+    top: 20%;
+    left: 80vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: rgb(41, 36, 36);
+    border: 0.1vh solid rgb(41, 36, 36);
+    border-radius: 60vh;
+    height: 32px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+
+    
+}
+.preciotres{
+    margin: 0;
+    position: absolute;
+    margin-top: -33vh;
+    top: 12%;
+    left: 120vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: rgb(41, 36, 36);
+    border: 0.1vh solid rgb(41, 36, 36);
+    border-radius: 60vh;
+    height: 32px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+.preciocuatro{
+    margin: 0;
+    position: absolute;
+    margin-top: -33vh;
+    top: 20%;
+    left: 160vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: rgb(41, 36, 36);
+    border: 0.1vh solid rgb(41, 36, 36);
+    border-radius: 60vh;
+    height: 32px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+.texfinalpdos{
+    position: absolute;
+    padding-top: 10vh;
+    top:190vh;
+}
+.botonfinalpdos{
+    margin: 0;
+    position: absolute;
+    top: 198vh;
+    left: 182vh;
+    transform: translate(-50%, -50%);
+    justify-content: left;
+    padding-top: 5vh;
+    padding-left: 588vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    transform: scale(1);
+    background-color: white;
+    border: 0.1vh solid rgb(41, 36, 36);
+    border-radius: 60vh;
+    height: 46px;
+    padding: 2px 30px 2px 30px;
+    color: rgb(41, 36, 36);
+}
+.botonfinalpdos:hover{
+    transform: scale(1);
+    background-color: rgb(41, 36, 36) ;
+    border: 0.5vh solid rgb(41, 36, 36);
+    height: 46px;
+    padding: 2px 30px 2px 30px;
+    color:white ;
+    font-size: 14px;
+    
+}
+.botonfinalpdos{
+    transition: background 0.3s;
+                 transform: 0.2s;
 }
 a:hover{
     animation: backwards;
