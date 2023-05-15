@@ -966,7 +966,6 @@ img{
 .oktres{
     margin: 0;
     position: absolute;
-    transform: scale(1);
     margin-top: 321vh;
     top: 12%;
     left: 15vh;
@@ -983,7 +982,6 @@ img{
 }
 .oktrestitulo{
     position: absolute;
-    transform: scale(1);
     justify-content: left;
     font-size: 30px;
     padding-left: 23vh;
@@ -993,7 +991,6 @@ img{
 .oktresp{
     margin: 0;
     position: absolute;
-    transform: scale(1);
     color:rgba(88, 86, 86);
     width: 500px;
     top: 285vh;
@@ -1022,25 +1019,369 @@ img{
 
 .checktres{
     position: absolute;
-    transform: scale(1);
     padding-left: 12.5vh;
     bottom: -411vh;
     font-size: 5vh;
     color:white;
 }
-.checktres.oktres.oktresp.oktrestitulo:hover{
-    transform: scale(1);
-    background-color: white ;
-    border: 0.3vh solid rgb(20, 20, 199);
-    height: 30px;
-    padding: 2px 30px 2px 30px;
-    color:rgb(20, 20, 199) ;
-    
+
+.textounopaginaseis{
+    position: absolute;
+    padding-top: 335vh;
+    font-size: 7vh;
+}
+.textodospaginaseis{
+    position: absolute;
+    padding-top: 345vh;
+    font-size: 7vh;
+}
+.punopagseis{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    top: 497vh;
+    left: 156vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 2vh;
 }
 
+.numerounopagseis{
+    margin: 0;
+    position: absolute;
+    margin-top: 558vh;
+    top: 20%;
+    left: 40vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0.1vh solid white;
+    border-radius: 10%;
+    height: 250px;
+    width: 260px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+.numerounopagseis:hover{
+    margin: 0;
+    position: absolute;
+    margin-top: 558vh;
+    top: 20%;
+    left: 40vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0.1vh solid grey;
+    filter: blur(4px);
+    color-interpolation-filters: grey;
+    border-radius: 10%;
+    height: 250px;
+    width: 260px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+
+}
+
+.unopagseistitulo{
+    position: absolute;
+    justify-content: left;
+    font-size: 20px;
+    padding-left: 32vh;
+    bottom: -492vh;
+
+}
+.unoppagseis{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    top: 526vh;
+    left: 62vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 1vh;
+}
+
+.nombreunopagseis{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    font-size: 13.5px;
+    top: -4vh;
+    left: 51vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 1vh;
+}
+
+.numerodospagseis{
+    margin: 0;
+    position: absolute;
+    margin-top: 558vh;
+    top: 20%;
+    left: 82vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color:white;
+    border: 0.1vh solid white;
+    border-radius: 10%;
+    height: 250px;
+    width: 260px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+.numerodospagseis:hover{
+    margin: 0;
+    position: absolute;
+    margin-top: 558vh;
+    top: 20%;
+    left: 82vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0.1vh solid grey;
+    filter: blur(4px);
+    color-interpolation-filters: grey;
+    border-radius: 10%;
+    height: 250px;
+    width: 260px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+
+}
+.dostitulo{
+    position: absolute;
+    justify-content: left;
+    font-size: 20px;
+    padding-left: 76vh;
+    bottom: -492vh;
+
+}
+.dosp{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    top: 526vh;
+    left: 105vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 1vh;
+}
+.nombredospagseis{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    font-size: 13.5px;
+    top: -4vh;
+    left: 52vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 1vh;
+}
+.numerotrespagseis{
+    margin: 0;
+    position: absolute;
+    margin-top: 558vh;
+    top: 20%;
+    left: 128vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color:white;
+    border: 0.1vh solid white;
+    border-radius: 10%;
+    height: 250px;
+    width: 260px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+.numerotrespagseis:hover{
+    margin: 0;
+    position: absolute;
+    margin-top: 558vh;
+    top: 20%;
+    left: 128vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0.1vh solid grey;
+    filter: blur(4px);
+    color-interpolation-filters: grey;
+    border-radius: 10%;
+    height: 250px;
+    width: 260px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+
+}
+.trestitulo{
+    position: absolute;
+    justify-content: left;
+    font-size: 20px;
+    padding-left: 120vh;
+    bottom: -492vh;
+
+}
+.tresp{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    top: 526vh;
+    left: 150vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 1vh;
+}
+.nombretrespagseis{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    font-size: 13.5px;
+    top: -4vh;
+    left: 49vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 5vh;
+}
+.numerocuatropagseis{
+    margin: 0;
+    position: absolute;
+    margin-top: 558vh;
+    top: 20%;
+    left: 170vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0.1vh solid white;
+    border-radius: 10%;
+    height: 250px;
+    width: 260px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+.numerocuatropagseis:hover{
+    margin: 0;
+    position: absolute;
+    margin-top: 558vh;
+    top: 20%;
+    left: 170vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0.1vh solid grey;
+    filter: blur(4px);
+    color-interpolation-filters: grey;
+    border-radius: 10%;
+    height: 250px;
+    width: 260px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+
+}
+.cuatrotitulo{
+    position: absolute;
+    justify-content: left;
+    font-size: 20px;
+    padding-left: 162vh;
+    bottom: -492vh;
 
 
+}
+.cuatrop{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    top: 526vh;
+    left: 192vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 1vh;
+}
+.pagseiscuatro{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    font-size: 13.5px;
+    top: -4vh;
+    left: 51vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 1vh;
+}
 
+.paginaseisuno{
+    margin: 0;
+    position: absolute;
+    width: 9vh;
+    height: 9vh;
+    border-radius: 50%;
+    margin-top:4vh;
+    left: 0.9vh;
+    padding-left: 0.1vh; 
+}
+.paginaseisdos{
+    margin: 0;
+    position: absolute;
+    width: 9vh;
+    height: 9vh;
+    border-radius: 50%;
+    margin-top:4vh;
+    left: 2vh;
+    padding-left: 0.1vh; 
+}
+.paginaseistres{
+    margin: 0;
+    position: absolute;
+    width: 9vh;
+    height: 9vh;
+    border-radius: 50%;
+    margin-top:4vh;
+    left: 1vh;
+    padding-left: 0.1vh; 
+}
+.paginaseiscuatro{
+    margin: 0;
+    position: absolute;
+    width: 9vh;
+    height: 9vh;
+    border-radius: 50%;
+    margin-top:4vh;
+    left: 1vh;
+    padding-left: 0.1vh; 
+}
 a:hover{
     animation: backwards;
 }
