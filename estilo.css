@@ -4,8 +4,7 @@
 }
 
 body{
-    background:white 100%,
-
+    background:white 100%;
 }
 /*-header-*/
 
@@ -840,6 +839,208 @@ img{
     transition: background 0.3s;
                  transform: 0.2s;
 }
+.titulounopaginacinco{
+    position: absolute;
+  
+    width: 200vh;
+    padding-top: 230vh;
+    font-size: 7vh;
+}
+.titulodospaginacinco{
+    position: absolute;
+    width: 200vh;
+    padding-top: 240vh;
+    font-size: 7vh;
+}
+.textopagcinco{
+    position: absolute;
+    margin: 0 auto;
+    
+    padding-top: 260vh;
+}
+.divimgcinco{
+    position: absolute;
+    margin: 0 auto;
+    left: 160vh;
+    padding-top: 10vh;
+    top:365vh;
+    justify-content: center;
+    
+    
+}
+.paginacincoimg{
+    margin: 0;
+    position: relative;
+    top: 8vh;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    width: 70vh;
+    height: 95vh;
+    border-radius: 10%;
+    margin-top: 90vh;
+    padding-left: 0vh;
+    
+}
+.divpagcinco{
+    display: block;
+    position: relative;
+    
+   
+}
+.okuno{
+    margin: 0;
+    position: absolute;
+    margin-top: 276vh;
+    top: 20%;
+    left: 15vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: rgb(41, 36, 36);
+    border: 0.1vh solid rgb(41, 36, 36);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+.okunotitulo{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 23vh;
+    bottom: -279vh;
+
+}
+.okunop{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    top: 115vh;
+    left: 63.2vh;
+    transform: translate(-50%, -50%);
+    padding-top: 260vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 1vh;
+}
+.okdos{
+    margin: 0;
+    position: absolute;
+    margin-top: 300vh;
+    top: 20%;
+    left: 15vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: rgb(41, 36, 36);
+    border: 0.1vh solid rgb(41, 36, 36);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+.okdostitulo{
+    position: absolute;
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 23vh;
+    bottom: -303vh;
+
+}
+.okdosp{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    top: 263vh;
+    left: 63.2vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 2vh;
+}
+.oktres{
+    margin: 0;
+    position: absolute;
+    transform: scale(1);
+    margin-top: 321vh;
+    top: 12%;
+    left: 15vh;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: rgb(41, 36, 36);
+    border: 0.1vh solid rgb(41, 36, 36);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+}
+.oktrestitulo{
+    position: absolute;
+    transform: scale(1);
+    justify-content: left;
+    font-size: 30px;
+    padding-left: 23vh;
+    bottom: -324vh;
+
+}
+.oktresp{
+    margin: 0;
+    position: absolute;
+    transform: scale(1);
+    color:rgba(88, 86, 86);
+    width: 500px;
+    top: 285vh;
+    left: 63.2vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 2vh;
+}
+
+.checkuno{
+    position: absolute;
+    padding-left: 12.5vh;
+    bottom: -366vh;
+    font-size: 5vh;
+    color: white;
+}
+.checkdos{
+    position: absolute;
+    padding-left: 12.5vh;
+    bottom: -390vh;
+    font-size: 5vh;
+    color: white;
+}
+
+.checktres{
+    position: absolute;
+    transform: scale(1);
+    padding-left: 12.5vh;
+    bottom: -411vh;
+    font-size: 5vh;
+    color:white;
+}
+.checktres.oktres.oktresp.oktrestitulo:hover{
+    transform: scale(1);
+    background-color: white ;
+    border: 0.3vh solid rgb(20, 20, 199);
+    height: 30px;
+    padding: 2px 30px 2px 30px;
+    color:rgb(20, 20, 199) ;
+    
+}
+
+
+
+
 a:hover{
     animation: backwards;
 }
