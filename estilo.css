@@ -1518,6 +1518,226 @@ h3{
     padding-left:2vh;
     
 }
+.pagochop{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    top: 733vh;
+    left: 61.5vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 30vh;
+    padding-left: 1vh;
+}
+.unopagocho{
+    margin: 0;
+    position: absolute;
+    bottom: 8vh;
+}
+.dospagocho{
+    margin: 0;
+    position: absolute;
+    bottom: 5vh;
+}
+.trespagocho{
+    margin: 0;
+    position: absolute;
+    bottom: 2vh;
+}
+
+
+.pagsietedostitulo{
+    position: absolute;
+    justify-content: left;
+    font-size: 20px;
+    color: black;
+    padding-left: 72vh;
+    bottom: 14vh;
+    width: 500px;
+
+}
+.pagsietetrestitulo{
+    position: absolute;
+    justify-content: left;
+    font-size: 20px;
+    color: black;
+    padding-left: 116vh;
+    bottom: 14vh;
+    width: 500px;
+}
+.pagsietecuatrotitulo{
+    position: absolute;
+    justify-content: left;
+    font-size: 20px;
+    color: black;
+    padding-left: 160vh;
+    bottom: 14vh;
+    width: 500px;
+}
+.activosieteuno{
+    position: absolute;
+    justify-content: left;
+    font-size: 17px;
+    bottom: 8vh;
+    left:68vh;
+    padding-left: 116vh;
+    color: black;
+    padding-left: 5vh;
+}
+.activosietedos{
+    position: absolute;
+    justify-content: left;
+    font-size: 17px;
+    bottom: 4vh;
+    left: 68vh;
+    width: 500px;
+    padding-left: 116vh;
+    color: black;
+    padding-left: 5vh;
+}
+.activosietetres{
+    position: absolute;
+    justify-content: left;
+    font-size: 17px;
+    bottom: 0vh;
+    left: 68vh;
+    width: 500px;
+    padding-left: 116vh;
+    color: black;
+    padding-left: 5vh;
+}
+.activosietecuatro{
+    position: absolute;
+    justify-content: left;
+    font-size: 17px;
+    bottom: -4vh;
+    left: 68vh;
+    width: 500px;
+    padding-left: 116vh;
+    color: black;
+    padding-left: 5vh;
+}
+.direccionpagocho{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    font-size: 15px;
+    width: 500px;
+    top: -23vh;
+    left: 161vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 1vh;
+}
+.telefonopagocho{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    font-size: 15px;
+    width: 500px;
+    top: -25.5vh;
+    left: 161vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 1vh;
+}
+
+.emailpagocho{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    font-size: 15px;
+    width: 500px;
+    top: -21.5vh;
+    left: 161vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 1vh;
+}
+.ubipagocho{
+    position: absolute;
+    padding-left: 116vh;
+    bottom: 7vh;
+    color: black;
+}
+.telpagocho{
+    position: absolute;
+    padding-left: 116vh;
+    bottom: 0.5vh;
+    color: black;
+}
+.gmailpagocho{
+    position: absolute;
+    padding-left: 116vh;
+    bottom: -4vh;
+    color: black;
+}
+.divinputpagocho{
+    position: absolute;
+  
+    
+    
+    padding: 0 2vh 0 3vh;
+
+}
+.inputpagocho{
+    position: absolute;
+    justify-content: left;
+    font-size: 12px;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(247, 241, 241)  ;
+    left: 159vh;
+    padding-top: 6vh;
+    padding-left: 30vh;
+    bottom: 1vh;
+    border: 0.1vh solid  black ;
+    border-radius: 60vh;   
+}
+.divdebotonpagocho{
+    
+    display: flex;
+    justify-content: right;
+    padding-right: 16vh;
+    padding-top: 5vh;
+    
+
+}
+
+.botonpagocho{
+    position: absolute;
+    top: 17vh;
+    left: 160vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    transform: scale(1);
+    background-color: rgb(20, 20, 199);
+    border: 0.1vh solid rgb(20, 20, 199);
+    border-radius: 60vh;
+    height: 40px;
+    width: 185px;
+    padding: 2px 30px 2px 30px;
+    color: white;
+
+}
+.botonpagocho:hover{
+    transform: scale(1);
+    background-color: white ;
+    border: 0.3vh solid rgb(20, 20, 199);
+    height: 40px;
+    padding: 2px 30px 2px 30px;
+    color:rgb(20, 20, 199) ;
+    
+}
+
 a:hover{
     animation: backwards;
 }
@@ -1526,7 +1746,7 @@ a:link{text-decoration: none;
         }
 
 ::placeholder{
-    color: rgb(219, 214, 214);
+    color: rgb(128, 122, 122);
     position: absolute;
     left: 5vh;
     top:2.5vh
