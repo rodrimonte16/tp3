@@ -40,11 +40,18 @@ h3{
     letter-spacing: -0.6vh;
 }
     
-img{
+.casauno{
+    margin: 0;
+    position: relative;
+    top: 37vh;
+    left: 172vh;
+    border-radius: 10%;
+    transform: translate(-50%, -50%);
+    justify-content: left;
     width: 60vh;
     height: 70vh;
     margin-top: -29vh;
-    padding-left: 130vh;
+    padding-left: 2vh;
     
 }
 
@@ -155,7 +162,7 @@ img{
 .botondos{
     margin: 0;
     position: absolute;
-    top: -25.7vh;
+    top: -28.7vh;
     left: 85vh;
     transform: translate(-50%, -50%);
     justify-content: left;
@@ -219,7 +226,7 @@ img{
     justify-content: left;
     font-size: 30px;
     padding-left: 12vh;
-    bottom: 7.3vh;
+    bottom: 12.8vh;
 }
 .carteldos{
     position: absolute;
@@ -242,7 +249,7 @@ img{
     font-size: 15px;
     color: rgba(88, 86, 86);
     padding-left: 12vh;
-    bottom: 3.5vh;
+    bottom: 9vh;
 
 }
 .pcarteldos{
@@ -277,14 +284,14 @@ img{
 }
 .divpdos{
     height: 200px;
-    top: 103vh;
+    top: 109vh;
     left: 35vh;
     position: relative;
 }
 .divpdosdos{
     padding-top: 1vh;
     left: 35vh;
-    top: 74vh;
+    top: 79vh;
 }
 .divimgdos{
     display: flex;
@@ -322,21 +329,21 @@ img{
     justify-content: left;
     font-size: 30px;
     padding-left: 71.8vh;
-    bottom: -77.3vh;
+    bottom: -85.8vh;
 }
 .carteldospdosdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
     padding-left: 71.8vh;
-    bottom: -83.3vh;
+    bottom: -91.6vh;
 }
 .carteltrespdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
     padding-left: 111.5vh;
-    bottom: -77.3vh;
+    bottom: -85.8vh;
 
 }
 .carteltrespdosdos{
@@ -344,7 +351,7 @@ img{
     justify-content: left;
     font-size: 30px;
     padding-left: 111.5vh;
-    bottom: -83.3vh;
+    bottom: -91.6vh;
 
 }
 .cartelcuatropdos{
@@ -352,7 +359,7 @@ img{
     justify-content: left;
     font-size: 30px;
     padding-left: 151.4vh;
-    bottom: -77.3vh;
+    bottom: -85.8vh;
 
 }
 .cartelcuatropdosdos{
@@ -360,7 +367,7 @@ img{
     justify-content: left;
     font-size: 30px;
     padding-left: 151.5vh;
-    bottom: -83.3vh;
+    bottom: -91.6vh;
 
 }
 .pcartelunopdos{
@@ -378,7 +385,7 @@ img{
     font-size: 15px;
     color: rgba(88, 86, 86);
     padding-left: 74vh;
-    bottom: -87.5vh;
+    bottom: -95.5vh;
 }
 .pcarteltrespdos{
     position: absolute;
@@ -386,7 +393,7 @@ img{
     font-size: 15px;
     color:rgba(88, 86, 86);
     padding-left: 114vh;
-    bottom: -87.5vh;
+    bottom: -95.5vh;
 }
 .pcartelcuatropdos{
     position: absolute;
@@ -394,29 +401,29 @@ img{
     font-size: 15px;
     color:rgba(88, 86, 86);
     padding-left: 154.5vh;
-    bottom: -87.55vh;
+    bottom: -95.5vh;
 }
 
 .ubiuno{
     position: absolute;
-    padding-left: 31.2vh;
-    bottom: -87.55vh;
+    padding-left: 31.5vh;
+    bottom: -95.6vh;
 }
 .ubidos{
     position: absolute;
     padding-left: 71.5vh;
-    bottom: -87.55vh;
+    bottom: -95.6vh;
 }
 
 .ubitres{
     position: absolute;
     padding-left: 111.5vh;
-    bottom: -87.55vh;
+    bottom: -95.6vh;
 }
 .ubicuatro{
     position: absolute;
     padding-left: 152vh;
-    bottom: -87.55vh;
+    bottom: -95.6vh;
 }
 .divprecios{
     position: relative;
@@ -624,12 +631,12 @@ img{
 }
 .textounopaginacuatro{
     position: absolute;
-    padding-top: 130vh;
+    padding-top: 137vh;
     font-size: 7vh;
 }
 .textodospaginacuatro{
     position: absolute;
-    padding-top: 140vh;
+    padding-top: 147vh;
     font-size: 7vh;
 }
 .punopagcuatro{
@@ -637,7 +644,7 @@ img{
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 285vh;
+    top: 292vh;
     left: 156vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -671,7 +678,7 @@ img{
     justify-content: left;
     font-size: 30px;
     padding-left: 36.5vh;
-    bottom: -195vh;
+    bottom: -193vh;
 
 }
 .unop{
@@ -679,7 +686,7 @@ img{
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 163vh;
+    top: 160vh;
     left: 77vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -709,15 +716,15 @@ img{
     justify-content: left;
     font-size: 30px;
     padding-left: 80vh;
-    bottom: -195vh;
+    bottom: -193vh;
 
 }
-.dosp{
+.pagcuatrodosp{
     margin: 0;
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 163vh;
+    top: 160vh;
     left: 120vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -747,15 +754,15 @@ img{
     justify-content: left;
     font-size: 30px;
     padding-left: 124vh;
-    bottom: -195vh;
+    bottom: -193vh;
 
 }
-.tresp{
+.pagcuatrotresp{
     margin: 0;
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 163vh;
+    top: 160vh;
     left: 164vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -785,15 +792,15 @@ img{
     justify-content: left;
     font-size: 30px;
     padding-left: 168vh;
-    bottom: -195vh;
+    bottom: -193vh;
 
 }
-.cuatrop{
+.pagcuatrocuatrop{
     margin: 0;
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 163vh;
+    top: 160vh;
     left: 207.5vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1027,12 +1034,12 @@ img{
 
 .textounopaginaseis{
     position: absolute;
-    padding-top: 335vh;
+    padding-top: 345vh;
     font-size: 7vh;
 }
 .textodospaginaseis{
     position: absolute;
-    padding-top: 345vh;
+    padding-top: 355vh;
     font-size: 7vh;
 }
 .punopagseis{
@@ -1040,7 +1047,7 @@ img{
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 497vh;
+    top: 507vh;
     left: 156vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1052,7 +1059,7 @@ img{
 .numerounopagseis{
     margin: 0;
     position: absolute;
-    margin-top: 558vh;
+    margin-top: 568vh;
     top: 20%;
     left: 40vh;
     transform: translate(-50%,-50%);
@@ -1069,7 +1076,7 @@ img{
 .numerounopagseis:hover{
     margin: 0;
     position: absolute;
-    margin-top: 558vh;
+    margin-top: 568vh;
     top: 20%;
     left: 40vh;
     transform: translate(-50%,-50%);
@@ -1092,7 +1099,7 @@ img{
     justify-content: left;
     font-size: 20px;
     padding-left: 32vh;
-    bottom: -492vh;
+    bottom: -502vh;
 
 }
 .unoppagseis{
@@ -1100,7 +1107,7 @@ img{
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 526vh;
+    top: 536vh;
     left: 62vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1127,9 +1134,9 @@ img{
 .numerodospagseis{
     margin: 0;
     position: absolute;
-    margin-top: 558vh;
+    margin-top:568vh;
     top: 20%;
-    left: 82vh;
+    left: 83vh;
     transform: translate(-50%,-50%);
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -1144,9 +1151,9 @@ img{
 .numerodospagseis:hover{
     margin: 0;
     position: absolute;
-    margin-top: 558vh;
+    margin-top: 568vh;
     top: 20%;
-    left: 82vh;
+    left: 83vh;
     transform: translate(-50%,-50%);
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -1161,12 +1168,12 @@ img{
     color: white;
 
 }
-.dostitulo{
+.pagseisdostitulo{
     position: absolute;
     justify-content: left;
     font-size: 20px;
     padding-left: 76vh;
-    bottom: -492vh;
+    bottom: -502vh;
 
 }
 .dosp{
@@ -1174,7 +1181,7 @@ img{
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 526vh;
+    top: 536vh;
     left: 105vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1199,7 +1206,7 @@ img{
 .numerotrespagseis{
     margin: 0;
     position: absolute;
-    margin-top: 558vh;
+    margin-top: 568vh;
     top: 20%;
     left: 128vh;
     transform: translate(-50%,-50%);
@@ -1216,7 +1223,7 @@ img{
 .numerotrespagseis:hover{
     margin: 0;
     position: absolute;
-    margin-top: 558vh;
+    margin-top: 568vh;
     top: 20%;
     left: 128vh;
     transform: translate(-50%,-50%);
@@ -1233,12 +1240,12 @@ img{
     color: white;
 
 }
-.trestitulo{
+.pagseistrestitulo{
     position: absolute;
     justify-content: left;
     font-size: 20px;
     padding-left: 120vh;
-    bottom: -492vh;
+    bottom: -502vh;
 
 }
 .tresp{
@@ -1246,7 +1253,7 @@ img{
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 526vh;
+    top: 536vh;
     left: 150vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1271,9 +1278,9 @@ img{
 .numerocuatropagseis{
     margin: 0;
     position: absolute;
-    margin-top: 558vh;
+    margin-top: 568vh;
     top: 20%;
-    left: 170vh;
+    left: 172vh;
     transform: translate(-50%,-50%);
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -1288,9 +1295,9 @@ img{
 .numerocuatropagseis:hover{
     margin: 0;
     position: absolute;
-    margin-top: 558vh;
+    margin-top: 568vh;
     top: 20%;
-    left: 170vh;
+    left: 172vh;
     transform: translate(-50%,-50%);
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -1305,12 +1312,12 @@ img{
     color: white;
 
 }
-.cuatrotitulo{
+.pagseiscuatrotitulo{
     position: absolute;
     justify-content: left;
     font-size: 20px;
-    padding-left: 162vh;
-    bottom: -492vh;
+    padding-left: 164vh;
+    bottom: -502vh;
 
 
 }
@@ -1319,8 +1326,8 @@ img{
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 526vh;
-    left: 192vh;
+    top: 536vh;
+    left: 194vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
     justify-content: left;
@@ -1334,7 +1341,7 @@ img{
     width: 500px;
     font-size: 13.5px;
     top: -4vh;
-    left: 51vh;
+    left: 53vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
     justify-content: left;
@@ -1381,6 +1388,135 @@ img{
     margin-top:4vh;
     left: 1vh;
     padding-left: 0.1vh; 
+}
+.divimgsiete{
+    position: absolute;
+    margin: 0 auto;
+    left: 56vh;
+    padding-top: 10vh;
+    top:590vh;
+    justify-content: center;
+    
+    
+}
+.paginasieteimg{
+    margin: 0;
+    position: relative;
+    top: 8vh;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    width: 70vh;
+    height: 89vh;
+    border-radius: 10%;
+    margin-top: 90vh;
+    padding-left: 0vh;
+    
+}
+.textounopaginasiete{
+    position: absolute;
+    left: 82vh;
+    padding-top: 451.5vh;
+    font-size: 8vh;
+}
+.textodospaginasiete{
+    position: absolute;
+    left: 82vh;
+    padding-top: 461.5vh;
+    font-size: 8vh;
+}
+.punopagsiete{
+    margin: 0;
+    position: absolute;
+    color:rgba(88, 86, 86);
+    width: 500px;
+    top: 633vh;
+    left: 134.5vh;
+    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    justify-content: left;
+    margin-top: 40vh;
+    padding-left: 2vh;
+}
+.botonpaginasiete{
+    position: relative;
+    
+    padding-right: 16vh;
+    
+}
+.botonunopaginasiete{
+    margin: 0;
+    position: absolute;
+    top: 503vh;
+    left: 94vh;
+    transform: translate(-50%, -50%);
+    justify-content: left;
+    padding-top: 5vh;
+    padding-left: 592vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    transform: scale(1);
+    background-color: rgb(20, 20, 199);
+    border: 0.1vh solid rgb(20, 20, 199);
+    border-radius: 60vh;
+    height: 46px;
+    padding: 2px 30px 2px 30px;
+    color: white;
+}
+.botonunopaginasiete:hover{
+    transform: scale(1);
+    background-color: white ;
+    border: 0.5vh solid rgb(20, 20, 199);
+    height: 46px;
+    padding: 2px 30px 2px 30px;
+    color:rgb(20, 20, 199) ;
+    font-size: 14px;
+    
+}
+.botonunopaginasiete{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+.divdospagsiete{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.paginasieteunoimg{
+    margin: 0;
+    position: absolute;
+    width: 34vh;
+    height: 34vh;
+    left: 127vh;
+    border-radius: 10%;
+    margin-top: 518.5vh;
+    margin-left: 2vh;
+    padding-left:2vh;
+    
+}
+.paginasietedosimg{
+    margin: 0;
+    position: absolute;
+    width: 34vh;
+    height: 34vh;
+    left: 90vh;
+    border-radius: 10%;
+    margin-top: 518.5vh;
+    margin-left: 2vh;
+    padding-left:2vh;
+    
+}
+.paginasietetresimg{
+    margin: 0;
+    position: absolute;
+    width: 34vh;
+    height: 34vh;
+    left: 164vh;
+    border-radius: 10%;
+    margin-top: 518.5vh;
+    margin-left: 2vh;
+    padding-left:2vh;
+    
 }
 a:hover{
     animation: backwards;
