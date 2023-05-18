@@ -221,7 +221,7 @@ footer{
     left: 11.5vh;
     padding-top: 4.9vh;
     padding-left: 63vh;
-    bottom: 16vh;
+    bottom: 16.2vh;
     border: 0.1vh solid  rgb(214, 211, 211) ;
     border-radius: 60vh;   
 }
@@ -229,7 +229,7 @@ footer{
 
 .bi-search{
     position:absolute;
-    top:79vh;
+    top:76vh;
     left: 13vh;
 }
 .divcontenedordos{
@@ -248,14 +248,14 @@ footer{
     justify-content: left;
     font-size: 30px;
     padding-left: 42vh;
-    bottom: 6.5vh;
+    bottom: 6.3vh;
 }
 .carteltres{
     position: absolute;
     justify-content: left;
     font-size: 30px;
     padding-left: 70vh;
-    bottom: 6.5vh;
+    bottom: 6.3vh;
 
 }
 .pcarteluno{
@@ -285,7 +285,7 @@ footer{
 }
 .textopaginados{
     position: absolute;
-    padding-top: 2vh;
+    padding-top: 7vh;
     font-size: 7vh;
 }
 
@@ -343,46 +343,46 @@ footer{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 72.8vh;
-    bottom: -81vh;
+    padding-left: 71.8vh;
+    bottom: -78vh;
 }
 .carteldospdosdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 72.8vh;
-    bottom: -87vh;
+    padding-left: 71.8vh;
+    bottom: -84vh;
 }
 .carteltrespdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 112.5vh;
-    bottom: -81vh;
+    padding-left: 111.5vh;
+    bottom: -78vh;
 
 }
 .carteltrespdosdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 112.5vh;
-    bottom: -87vh;
+    padding-left: 111.5vh;
+    bottom: -84vh;
 
 }
 .cartelcuatropdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 152.4vh;
-    bottom: -81vh;
+    padding-left: 151.4vh;
+    bottom: -78vh;
 
 }
 .cartelcuatropdosdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 152.5vh;
-    bottom: -87vh;
+    padding-left: 151.5vh;
+    bottom: -84vh;
 
 }
 .pcartelunopdos{
@@ -400,7 +400,7 @@ footer{
     font-size: 15px;
     color: rgba(88, 86, 86);
     padding-left: 74vh;
-    bottom: -91vh;
+    bottom: -88vh;
 }
 .pcarteltrespdos{
     position: absolute;
@@ -408,7 +408,7 @@ footer{
     font-size: 15px;
     color:rgba(88, 86, 86);
     padding-left: 114vh;
-    bottom: -91vh;
+    bottom: -88vh;
 }
 .pcartelcuatropdos{
     position: absolute;
@@ -416,29 +416,29 @@ footer{
     font-size: 15px;
     color:rgba(88, 86, 86);
     padding-left: 154.5vh;
-    bottom: -91vh;
+    bottom: -88vh;
 }
 
 .ubiuno{
     position: absolute;
     padding-left: 31.5vh;
-    bottom: -91vh;
+    bottom: -88vh;
 }
 .ubidos{
     position: absolute;
     padding-left: 71.5vh;
-    bottom: -91vh;
+    bottom: -88vh;
 }
 
 .ubitres{
     position: absolute;
     padding-left: 111.5vh;
-    bottom: -91vh;
+    bottom: -88vh;
 }
 .ubicuatro{
     position: absolute;
     padding-left: 152vh;
-    bottom: -91vh;
+    bottom: -88vh;
 }
 .divprecios{
     position: relative;
@@ -659,7 +659,7 @@ footer{
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 292vh;
+    top: 279vh;
     left: 156vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -891,11 +891,11 @@ footer{
 .paginacincoimg{
     margin: 0;
     position: relative;
-    top: 8vh;
+    top: -7vh;
     transform: translate(-50%, -50%);
     justify-content: center;
     width: 70vh;
-    height: 95vh;
+    height: 92vh;
     border-radius: 10%;
     margin-top: 90vh;
     padding-left: 0vh;
@@ -975,7 +975,7 @@ footer{
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 263vh;
+    top: 265vh;
     left: 63.2vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1025,14 +1025,14 @@ footer{
 .checkuno{
     position: absolute;
     padding-left: 12.5vh;
-    bottom: -361vh;
+    bottom: -349vh;
     font-size: 5vh;
     color: white;
 }
 .checkdos{
     position: absolute;
     padding-left: 12.5vh;
-    bottom: -385vh;
+    bottom: -373vh;
     font-size: 5vh;
     color: white;
 }
@@ -1040,7 +1040,7 @@ footer{
 .checktres{
     position: absolute;
     padding-left: 12.5vh;
-    bottom: -406vh;
+    bottom: -394vh;
     font-size: 5vh;
     color:white;
 }
@@ -1060,7 +1060,7 @@ footer{
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 507vh;
+    top: 488vh;
     left: 156vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1082,7 +1082,7 @@ footer{
     border: 0.1vh solid white;
     border-radius: 10%;
     height: 250px;
-    width: 260px;
+    width: 250px;
     padding: 2px 20px 2px 20px;
     color: white;
 }
@@ -1101,7 +1101,7 @@ footer{
     color-interpolation-filters: grey;
     border-radius: 10%;
     height: 250px;
-    width: 260px;
+    width: 250px;
     padding: 2px 20px 2px 20px;
     color: white;
 
@@ -1157,7 +1157,7 @@ footer{
     border: 0.1vh solid white;
     border-radius: 10%;
     height: 250px;
-    width: 260px;
+    width: 250px;
     padding: 2px 20px 2px 20px;
     color: white;
 }
@@ -1176,7 +1176,7 @@ footer{
     color-interpolation-filters: grey;
     border-radius: 10%;
     height: 250px;
-    width: 260px;
+    width: 250px;
     padding: 2px 20px 2px 20px;
     color: white;
 
@@ -1221,7 +1221,7 @@ footer{
     position: absolute;
     margin-top: 568vh;
     top: 20%;
-    left: 128vh;
+    left: 127vh;
     transform: translate(-50%,-50%);
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -1229,28 +1229,28 @@ footer{
     border: 0.1vh solid white;
     border-radius: 10%;
     height: 250px;
-    width: 260px;
+    width: 250px;
     padding: 2px 20px 2px 20px;
     color: white;
 }
 .numerotrespagseis:hover{
-    margin: 0;
-    position: absolute;
-    margin-top: 568vh;
-    top: 20%;
-    left: 128vh;
-    transform: translate(-50%,-50%);
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    background-color: white;
-    border: 0.1vh solid grey;
-    filter: blur(4px);
-    color-interpolation-filters: grey;
-    border-radius: 10%;
-    height: 250px;
-    width: 260px;
-    padding: 2px 20px 2px 20px;
-    color: white;
+        margin: 0;
+        position: absolute;
+        margin-top: 568vh;
+        top: 20%;
+        left: 127vh;
+        transform: translate(-50%,-50%);
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        background-color: white;
+        border: 0.1vh solid grey;
+        filter: blur(4px);
+        color-interpolation-filters: grey;
+        border-radius: 10%;
+        height: 250px;
+        width: 250px;
+        padding: 2px 20px 2px 20px;
+        color: white;
 
 }
 .pagseistrestitulo{
@@ -1301,7 +1301,7 @@ footer{
     border: 0.1vh solid white;
     border-radius: 10%;
     height: 250px;
-    width: 260px;
+    width: 250px;
     padding: 2px 20px 2px 20px;
     color: white;
 }
@@ -1320,7 +1320,7 @@ footer{
     color-interpolation-filters: grey;
     border-radius: 10%;
     height: 250px;
-    width: 260px;
+    width: 250px;
     padding: 2px 20px 2px 20px;
     color: white;
 
@@ -1415,26 +1415,26 @@ footer{
 .paginasieteimg{
     margin: 0;
     position: relative;
-    top: 6vh;
+    top: 1.5vh;
     transform: translate(-50%, -50%);
     justify-content: center;
     width: 70vh;
     height: 89vh;
     border-radius: 10%;
-    margin-top: 90vh;
+    margin-top: 66vh;
     padding-left: 0vh;
     
 }
 .textounopaginasiete{
     position: absolute;
     left: 82vh;
-    padding-top: 451.5vh;
+    padding-top: 443.5vh;
     font-size: 8vh;
 }
 .textodospaginasiete{
     position: absolute;
     left: 82vh;
-    padding-top: 461.5vh;
+    padding-top: 455.5vh;
     font-size: 8vh;
 }
 .punopagsiete{
@@ -1442,7 +1442,7 @@ footer{
     position: absolute;
     color:rgba(88, 86, 86);
     width: 500px;
-    top: 633vh;
+    top: 607vh;
     left: 134.5vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1459,11 +1459,11 @@ footer{
 .botonunopaginasiete{
     margin: 0;
     position: absolute;
-    top: 503vh;
+    top: 495vh;
     left: 94vh;
     transform: translate(-50%, -50%);
     justify-content: left;
-    padding-top: 5vh;
+    padding-top: 3vh;
     padding-left: 592vh;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -1502,7 +1502,7 @@ footer{
     height: 34vh;
     left: 127vh;
     border-radius: 10%;
-    margin-top: 518.5vh;
+    margin-top: 511vh;
     margin-left: 2vh;
     padding-left:2vh;
     
@@ -1514,7 +1514,7 @@ footer{
     height: 34vh;
     left: 90vh;
     border-radius: 10%;
-    margin-top: 518.5vh;
+    margin-top: 511vh;
     margin-left: 2vh;
     padding-left:2vh;
     
@@ -1526,7 +1526,7 @@ footer{
     height: 34vh;
     left: 164vh;
     border-radius: 10%;
-    margin-top: 518.5vh;
+    margin-top: 511vh;
     margin-left: 2vh;
     padding-left:2vh;
     
