@@ -1,3 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@media(max-width:480px){
+    nav{
+        display: none;
+    }
+    .menuhambur{
+        display: block;
+    }
+    .boton{
+        display: none;
+    }
+    
+    h1{
+        text-align: center;
+        
+    }
+    .titulotres{
+        text-align: center;  
+        justify-content: center;
+        
+    }
+    .titulodos{
+        text-align: center;
+    }
+    h2{
+        display: none;
+    }
+    .casauno{
+        display: block;
+       
+    }
+    .divinput{
+        display: none;
+    }
+    .divbotondos{
+        display: none;
+    }
+    .divcontenedordos{
+        display: none;
+    }
+    .carteldos{
+        display: none;
+    }
+    .carteltres{
+        display: none;
+    }
+    .pcarteluno{
+        display: none;
+    }
+    .pcarteldos{
+        display: none;
+    }
+    .pcarteltres{
+        display: none;
+    }
+}
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +78,7 @@ h1{
     margin-top: 11vh;
     padding-left: 12vh;
     font-size: 8vh;
+    font-family: 'Nunito', sans-serif;
 }
 
 h2{
@@ -30,6 +87,7 @@ h2{
     padding-left: 12vh;
     font-size: 2.5vh;
     color: rgba(88, 86, 86);
+    
 }
 h3{
     position: relative;
@@ -39,11 +97,23 @@ h3{
     color: black;
     letter-spacing: -0.6vh;
 }
-    
+footer{
+    height: 100%;
+    width: 100%;
+    background-image: rgb(190, 185, 185);
+}
+.menuhamburguesa{
+    width: 80px;
+    display: none;
+}
+.menuhambur{
+    display: none;
+}
+
 .casauno{
     margin: 0;
     position: relative;
-    top: 37vh;
+    top: 34vh;
     left: 172vh;
     border-radius: 10%;
     transform: translate(-50%, -50%);
@@ -56,10 +126,7 @@ h3{
 }
 
 
-.logomarca{
-    position: absolute;
-    padding-top: 3.3vh;
-}
+
 
 .headeruno{
     position: relative;
@@ -91,8 +158,8 @@ h3{
 }
 .flechatres{
     position: absolute;
-    padding-top: 1.5vh;
-    padding-left: 142vh;
+    padding-top: 0.8vh;
+    padding-left: 82vh;
     font-size: 2vh;
 }
 .divdeboton{
@@ -141,12 +208,15 @@ h3{
 }
 .titulo{
     position: absolute;
+    font-family: 'Nunito', sans-serif;
 }
 .titulodos{
     margin-top: 1vh;
+    font-family: 'Nunito', sans-serif;
 }
 .titulotres{
     margin-top: 1vh;
+    font-family: 'Nunito', sans-serif;
 }
 .texto{
     position: absolute;
@@ -162,7 +232,7 @@ h3{
 .botondos{
     margin: 0;
     position: absolute;
-    top: -28.7vh;
+    top: -22.8vh;
     left: 85vh;
     transform: translate(-50%, -50%);
     justify-content: left;
@@ -206,7 +276,7 @@ h3{
     left: 11.5vh;
     padding-top: 4.9vh;
     padding-left: 63vh;
-    bottom: 24vh;
+    bottom: 16vh;
     border: 0.1vh solid  rgb(214, 211, 211) ;
     border-radius: 60vh;   
 }
@@ -214,7 +284,7 @@ h3{
 
 .bi-search{
     position:absolute;
-    top:68vh;
+    top:79vh;
     left: 13vh;
 }
 .divcontenedordos{
@@ -226,21 +296,21 @@ h3{
     justify-content: left;
     font-size: 30px;
     padding-left: 12vh;
-    bottom: 12.8vh;
+    bottom: 5.6vh;
 }
 .carteldos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
     padding-left: 42vh;
-    bottom: 15.5vh;
+    bottom: 6.5vh;
 }
 .carteltres{
     position: absolute;
     justify-content: left;
     font-size: 30px;
     padding-left: 70vh;
-    bottom: 15.5vh;
+    bottom: 6.5vh;
 
 }
 .pcarteluno{
@@ -249,7 +319,7 @@ h3{
     font-size: 15px;
     color: rgba(88, 86, 86);
     padding-left: 12vh;
-    bottom: 9vh;
+    bottom: 2vh;
 
 }
 .pcarteldos{
@@ -258,7 +328,7 @@ h3{
     font-size: 15px;
     color: rgba(88, 86, 86);
     padding-left: 42vh;
-    bottom: 12vh;
+    bottom: 3vh;
 }
 .pcarteltres{
     position: absolute;
@@ -266,11 +336,11 @@ h3{
     font-size: 15px;
     color:rgba(88, 86, 86);
     padding-left: 70vh;
-    bottom: 12vh;
+    bottom: 3vh;
 }
 .textopaginados{
     position: absolute;
-    padding-top: 10vh;
+    padding-top: 2vh;
     font-size: 7vh;
 }
 
@@ -284,14 +354,14 @@ h3{
 }
 .divpdos{
     height: 200px;
-    top: 109vh;
+    top: 106vh;
     left: 35vh;
     position: relative;
 }
 .divpdosdos{
     padding-top: 1vh;
     left: 35vh;
-    top: 79vh;
+    top: 75vh;
 }
 .divimgdos{
     display: flex;
@@ -302,7 +372,7 @@ h3{
     width: 38vh;
     height: 38vh;
     border-radius: 10%;
-    margin-top: 40vh;
+    margin-top: 33vh;
     padding-left: 2vh;
     
 }
@@ -328,46 +398,46 @@ h3{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 71.8vh;
-    bottom: -85.8vh;
+    padding-left: 72.8vh;
+    bottom: -81vh;
 }
 .carteldospdosdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 71.8vh;
-    bottom: -91.6vh;
+    padding-left: 72.8vh;
+    bottom: -87vh;
 }
 .carteltrespdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 111.5vh;
-    bottom: -85.8vh;
+    padding-left: 112.5vh;
+    bottom: -81vh;
 
 }
 .carteltrespdosdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 111.5vh;
-    bottom: -91.6vh;
+    padding-left: 112.5vh;
+    bottom: -87vh;
 
 }
 .cartelcuatropdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 151.4vh;
-    bottom: -85.8vh;
+    padding-left: 152.4vh;
+    bottom: -81vh;
 
 }
 .cartelcuatropdosdos{
     position: absolute;
     justify-content: left;
     font-size: 30px;
-    padding-left: 151.5vh;
-    bottom: -91.6vh;
+    padding-left: 152.5vh;
+    bottom: -87vh;
 
 }
 .pcartelunopdos{
@@ -385,7 +455,7 @@ h3{
     font-size: 15px;
     color: rgba(88, 86, 86);
     padding-left: 74vh;
-    bottom: -95.5vh;
+    bottom: -91vh;
 }
 .pcarteltrespdos{
     position: absolute;
@@ -393,7 +463,7 @@ h3{
     font-size: 15px;
     color:rgba(88, 86, 86);
     padding-left: 114vh;
-    bottom: -95.5vh;
+    bottom: -91vh;
 }
 .pcartelcuatropdos{
     position: absolute;
@@ -401,29 +471,29 @@ h3{
     font-size: 15px;
     color:rgba(88, 86, 86);
     padding-left: 154.5vh;
-    bottom: -95.5vh;
+    bottom: -91vh;
 }
 
 .ubiuno{
     position: absolute;
     padding-left: 31.5vh;
-    bottom: -95.6vh;
+    bottom: -91vh;
 }
 .ubidos{
     position: absolute;
     padding-left: 71.5vh;
-    bottom: -95.6vh;
+    bottom: -91vh;
 }
 
 .ubitres{
     position: absolute;
     padding-left: 111.5vh;
-    bottom: -95.6vh;
+    bottom: -91vh;
 }
 .ubicuatro{
     position: absolute;
     padding-left: 152vh;
-    bottom: -95.6vh;
+    bottom: -91vh;
 }
 .divprecios{
     position: relative;
@@ -434,7 +504,7 @@ h3{
     position: absolute;
     margin-top: -33vh;
     top: 20%;
-    left: 40vh;
+    left: 42vh;
     transform: translate(-50%,-50%);
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -452,7 +522,7 @@ h3{
     position: absolute;
     margin-top: -33vh;
     top: 20%;
-    left: 80vh;
+    left: 82vh;
     transform: translate(-50%,-50%);
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -470,7 +540,7 @@ h3{
     position: absolute;
     margin-top: -33vh;
     top: 12%;
-    left: 120vh;
+    left: 122vh;
     transform: translate(-50%,-50%);
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -486,7 +556,7 @@ h3{
     position: absolute;
     margin-top: -33vh;
     top: 20%;
-    left: 160vh;
+    left: 162vh;
     transform: translate(-50%,-50%);
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -500,12 +570,12 @@ h3{
 .texfinalpdos{
     position: absolute;
     padding-top: 10vh;
-    top:190vh;
+    top:188vh;
 }
 .botonfinalpdos{
     margin: 0;
     position: absolute;
-    top: 198vh;
+    top: 195vh;
     left: 182vh;
     transform: translate(-50%, -50%);
     justify-content: left;
@@ -547,7 +617,7 @@ h3{
 .paginatresimguno{
     margin: 0;
     position: relative;
-    top: -10vh;
+    top: -12vh;
     left: 60vh;
     transform: translate(-50%, -50%);
     justify-content: left;
@@ -814,9 +884,10 @@ h3{
     top:220vh;
 }
 .botonfinalpcuatro{
+    transform: scale(1);
     margin: 0;
     position: absolute;
-    top: 228vh;
+    top: 230vh;
     left: 182vh;
     transform: translate(-50%, -50%);
     justify-content: left;
@@ -824,23 +895,20 @@ h3{
     padding-left: 588vh;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    transform: scale(1);
     background-color: white;
-    border: 0.1vh solid rgb(41, 36, 36);
+    border: 0.1vh solid black;
     border-radius: 60vh;
     height: 46px;
     padding: 2px 30px 2px 30px;
-    color: rgb(41, 36, 36);
+    color:black;
 }
 .botonfinalpcuatro:hover{
     transform: scale(1);
-    background-color: rgb(41, 36, 36) ;
-    border: 0.5vh solid rgb(41, 36, 36);
+    background-color: white ;
+    border: 0.1vh solid rgb(20, 20, 199);
     height: 46px;
     padding: 2px 30px 2px 30px;
-    color:white ;
-    font-size: 14px;
-    
+    color:rgb(20, 20, 199) ;
 }
 .botonfinalpcuatro{
     transition: background 0.3s;
@@ -863,14 +931,14 @@ h3{
     position: absolute;
     margin: 0 auto;
     
-    padding-top: 260vh;
+    padding-top: 262vh;
 }
 .divimgcinco{
     position: absolute;
     margin: 0 auto;
     left: 160vh;
     padding-top: 10vh;
-    top:365vh;
+    top:362.5vh;
     justify-content: center;
     
     
@@ -1012,14 +1080,14 @@ h3{
 .checkuno{
     position: absolute;
     padding-left: 12.5vh;
-    bottom: -366vh;
+    bottom: -361vh;
     font-size: 5vh;
     color: white;
 }
 .checkdos{
     position: absolute;
     padding-left: 12.5vh;
-    bottom: -390vh;
+    bottom: -385vh;
     font-size: 5vh;
     color: white;
 }
@@ -1027,7 +1095,7 @@ h3{
 .checktres{
     position: absolute;
     padding-left: 12.5vh;
-    bottom: -411vh;
+    bottom: -406vh;
     font-size: 5vh;
     color:white;
 }
@@ -1122,7 +1190,7 @@ h3{
     color:rgba(88, 86, 86);
     width: 500px;
     font-size: 13.5px;
-    top: -4vh;
+    top: -3vh;
     left: 51vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1195,7 +1263,7 @@ h3{
     color:rgba(88, 86, 86);
     width: 500px;
     font-size: 13.5px;
-    top: -4vh;
+    top: -3vh;
     left: 52vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1267,7 +1335,7 @@ h3{
     color:rgba(88, 86, 86);
     width: 500px;
     font-size: 13.5px;
-    top: -4vh;
+    top: -3vh;
     left: 49vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1340,8 +1408,8 @@ h3{
     color:rgba(88, 86, 86);
     width: 500px;
     font-size: 13.5px;
-    top: -4vh;
-    left: 53vh;
+    top: -3vh;
+    left: 51vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
     justify-content: left;
@@ -1402,7 +1470,7 @@ h3{
 .paginasieteimg{
     margin: 0;
     position: relative;
-    top: 8vh;
+    top: 6vh;
     transform: translate(-50%, -50%);
     justify-content: center;
     width: 70vh;
@@ -1580,7 +1648,7 @@ h3{
     position: absolute;
     justify-content: left;
     font-size: 17px;
-    bottom: 8vh;
+    bottom: 10vh;
     left:68vh;
     padding-left: 116vh;
     color: black;
@@ -1590,7 +1658,7 @@ h3{
     position: absolute;
     justify-content: left;
     font-size: 17px;
-    bottom: 4vh;
+    bottom: 6vh;
     left: 68vh;
     width: 500px;
     padding-left: 116vh;
@@ -1601,7 +1669,7 @@ h3{
     position: absolute;
     justify-content: left;
     font-size: 17px;
-    bottom: 0vh;
+    bottom: 2vh;
     left: 68vh;
     width: 500px;
     padding-left: 116vh;
@@ -1612,7 +1680,7 @@ h3{
     position: absolute;
     justify-content: left;
     font-size: 17px;
-    bottom: -4vh;
+    bottom: -2vh;
     left: 68vh;
     width: 500px;
     padding-left: 116vh;
@@ -1639,7 +1707,7 @@ h3{
     color:rgba(88, 86, 86);
     font-size: 15px;
     width: 500px;
-    top: -25.5vh;
+    top: -25vh;
     left: 161vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1654,7 +1722,7 @@ h3{
     color:rgba(88, 86, 86);
     font-size: 15px;
     width: 500px;
-    top: -21.5vh;
+    top: -20.5vh;
     left: 161vh;
     transform: translate(-50%, -50%);
     padding-top: 10vh;
@@ -1665,19 +1733,19 @@ h3{
 .ubipagocho{
     position: absolute;
     padding-left: 116vh;
-    bottom: 7vh;
+    bottom: 9vh;
     color: black;
 }
 .telpagocho{
     position: absolute;
     padding-left: 116vh;
-    bottom: 0.5vh;
+    bottom: 2.5vh;
     color: black;
 }
 .gmailpagocho{
     position: absolute;
     padding-left: 116vh;
-    bottom: -4vh;
+    bottom: -2vh;
     color: black;
 }
 .divinputpagocho{
@@ -1698,7 +1766,7 @@ h3{
     left: 159vh;
     padding-top: 6vh;
     padding-left: 30vh;
-    bottom: 1vh;
+    bottom: -1vh;
     border: 0.1vh solid  black ;
     border-radius: 60vh;   
 }
@@ -1714,7 +1782,7 @@ h3{
 
 .botonpagocho{
     position: absolute;
-    top: 17vh;
+    top: 18.5vh;
     left: 160vh;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
@@ -1737,6 +1805,34 @@ h3{
     color:rgb(20, 20, 199) ;
     
 }
+.larkhomes{
+    margin: 0;
+    position: relative;
+    top: 17vh;
+    left: 18vh;
+    border-radius: 10%;
+    transform: translate(-50%, -50%);
+    justify-content: left;
+    width: 16vh;
+    height: 10vh;
+    margin-top: -29vh;
+    padding-left: 2vh;
+    
+}
+.larkhomesdos{
+    margin: 0;
+    position: relative;
+    top: -5vh;
+    left: 5.8vh;
+    border-radius: 10%;
+    transform: translate(-50%, -50%);
+    justify-content: left;
+    width: 16vh;
+    height: 10vh;
+    margin-top: -29vh;
+    padding-left: 2vh;
+    
+}
 
 a:hover{
     animation: backwards;
@@ -1749,5 +1845,5 @@ a:link{text-decoration: none;
     color: rgb(128, 122, 122);
     position: absolute;
     left: 5vh;
-    top:2.5vh
+    top:2.5vh;
 }
